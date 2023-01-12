@@ -28,3 +28,4 @@ ansible-playbook -i hosts playbook.yml -K
 
 * Arquivo hosts contem os endereços de servidores para execução do playbook
 * Opção -K é para solicitar a senha de root dos servidores que serão acessados para configuração do node exporter
+* O playbook foi construido e testado apenas em servidores linux debian
